@@ -4,14 +4,14 @@ class Display extends React.Component {
     constructor(props) {
         super(props)
 
-        this.state = { result = 0 }
-        this.setState({ result = props.answer })
+        this.state = { result: 0 }
+
     }
 
 
     render() {
         return <div>
-            <p>{string(this.state.result)}</p>
+            <p>The result is: {this.state.result}</p>
         </div>
     }
 

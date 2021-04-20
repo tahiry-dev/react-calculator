@@ -1,3 +1,21 @@
 body {
   background-color: rgb(158, 172, 172);
 }
+
+.group1, .group2, .group3, .group4, .group5 {
+  display: flex;
+  margin-top: 2px;
+}
+
+button {
+  position: relative;
+  width: 25px;
+  padding: 25px;
+}
+
+button span {
+  position: absolute;
+  color: blue;
+  top: 15px;
+  left: 20px
+}
