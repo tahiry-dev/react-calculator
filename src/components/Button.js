@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Button = props => {
-    return <div>
-        <button><span>{props.name}</span></button>
-    </div>
-}
-
-export default Button
+/* eslint-disable react/prop-types */
+const Button = ({ name }) => (
+  <div>
+    <button type="button"><span>{name}</span></button>
+  </div>
+);
+/* eslint-enable react/prop-types */
+export default Button;

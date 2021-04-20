@@ -1,20 +1,23 @@
 import React from 'react';
 
+/* eslint-disable react/destructuring-assignment */
 class Display extends React.Component {
-    constructor(props) {
-        super(props)
+  constructor() {
+    super();
 
-        this.state = { result: 0 }
+    this.state = { result: 0 };
+  }
 
-    }
-
-
-    render() {
-        return <div>
-            <p>The result is: {this.state.result}</p>
-        </div>
-    }
-
+  render() {
+    return (
+      <div>
+        <p>
+          The result is:
+          {this.state.result}
+        </p>
+      </div>
+    );
+  }
 }
-
-export default Display
+/* eslint-enable react/destructuring-assignment */
+export default Display;
