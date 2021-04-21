@@ -1,19 +1,24 @@
 import Big from 'big.js';
 
 const Operate = (numberOne, numberTwo, operation) => {
+  const numOne = Big(numberOne);
+  const numTwo = Big(numberTwo);
   let total;
   switch (operation) {
     case '+':
-      total = Big(numberOne + numberTwo);
+      total = plus(numOne, numTwo);
       break;
     case '-':
-      total = Big(numberOne - numberTwo);
+      total = subtract(numOne, numTwo);
       break;
     case 'x':
-      total = Big(numberOne * numberTwo);
+      total = multiply(numOne, numTwo);
       break;
     case '÷':
-      total = Big(numberOne / numberTwo);
+      total = divide(numOne, numTwo);
+      break;
+    case '%':
+      total = numOne.mod(numTwo);
       break;
     default:
       total = NaN;
