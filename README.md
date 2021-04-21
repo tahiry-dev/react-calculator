@@ -2,11 +2,11 @@
 
 # Calculator
 
-> This is the first milestone of the project
+> This is the fourth milestone of the project
 
 ![screenshot](./app_screenshot.png)
 
-
+> This milestone came with the logic of the calculator
 
 ## Built With
 
@@ -19,27 +19,22 @@
 [Live Demo Link](https://reactcalculapp.herokuapp.com/)
 
 
-## Getting Started
+## To get this project set up on your local machine, follow these simple steps:
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+# Step 1
+Navigate through the local folder where you want to clone the repository and run
+``` 
+    git clone https://github.com/tahiry-dev/react-calculator.git 
+```
 
+# Step 2
+Run ``` cd calculator ```
 
-To get a local copy up and running follow these simple example steps.
+# Step 3
+Run ``` npm install ``` to install the npm packages from the package.json file.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+# Step 4
+Run ```npm start ``` to start the webpack server, you can now navigate to http://localhost:3000 to view the app. The server refreshes the app every time you make a change to a file used by it.
 
 ## Authors
 
