@@ -1,15 +1,34 @@
 import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
-/* eslint-disable no-unused-vars */
 import Calculate from '../logic/Calculate';
-/* eslint-enable no-unused-vars */
 
-const App = () => (
-  <div>
-    <ButtonPanel />
-    <Display />
-  </div>
-);
+class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      total: '',
+      next: '',
+      operation: null,
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(buttonName) {
+    const newState = Calculate(this.state, buttonName);
+    this.setState(() => ({ ...newState }));
+  }
+
+  render() {
+    const { total, next } = this.state;
+    return (
+      <div className="container">
+        <Display total={total} next={next} />
+        <ButtonPanel clickHandler={this.handleClick} />
+      </div>
+    );
+  }
+}
 
 export default App;

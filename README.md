@@ -2,11 +2,11 @@
 
 # Calculator
 
-> This is the fourth milestone of the project
+> This a calculator App built with react without hooks 
 
 ![screenshot](./app_screenshot.png)
 
-> This milestone came with the logic of the calculator
+> There are class based and function based component
 
 ## Built With
 
