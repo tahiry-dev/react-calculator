@@ -58,4 +58,6 @@ const ButtonPanel = ({ clickHandler }) => {
     </div>
   );
 };
+
+
 export default ButtonPanel;

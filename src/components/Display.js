@@ -1,23 +1,10 @@
 import React from 'react';
 
-/* eslint-disable react/destructuring-assignment */
-class Display extends React.Component {
-  constructor() {
-    super();
+const Display = ({ total, next }) => {
 
-    this.state = { result: 0 };
-  }
-
-  render() {
-    return (
-      <div>
-        <p>
-          The result is:
-          {this.state.result}
-        </p>
-      </div>
-    );
-  }
+  return <div>
+    <p>{(next && next.toString()) || (total && total.toString()) || '0'}</p>
+  </div>
 }
-/* eslint-enable react/destructuring-assignment */
+
 export default Display;
