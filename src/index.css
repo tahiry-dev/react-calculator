@@ -2,6 +2,11 @@ body {
   background-color: rgb(158, 172, 172);
 }
 
+.container {
+  width: 26%;
+  margin: 5% auto;
+}
+
 .group1,
 .group2,
 .group3,
@@ -22,4 +27,15 @@ button span {
   color: blue;
   top: 15px;
   left: 20px;
+}
+
+.result {
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  font-weight: 400;
 }

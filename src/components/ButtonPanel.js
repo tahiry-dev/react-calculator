@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
+/* eslint-disable react/prop-types */
 const ButtonPanel = ({ clickHandler }) => {
   const group1 = ['AC', '+/-', '%', '÷'];
   const group2 = ['7', '8', '9', 'x'];
@@ -58,6 +59,5 @@ const ButtonPanel = ({ clickHandler }) => {
     </div>
   );
 };
-
-
+/* eslint-enable react/prop-types */
 export default ButtonPanel;

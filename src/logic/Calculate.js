@@ -1,7 +1,8 @@
 import Operate from './Operate';
 
-const Calculate = ({ total, next, operation }, buttonName) => {
+/* eslint-disable no-param-reassign */
 
+const Calculate = ({ total, next, operation }, buttonName) => {
   if (buttonName === 'AC') {
     total = '';
     next = '';
@@ -34,5 +35,5 @@ const Calculate = ({ total, next, operation }, buttonName) => {
 
   return { total, next, operation };
 };
-
+/* eslint-enable no-param-reassign */
 export default Calculate;
