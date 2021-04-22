@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* eslint-disable react/prop-types */
-const Button = ({ name }) => (
+const Button = ({ name, clickHandler }) => (
   <div>
     <button type="button"><span>{name}</span></button>
   </div>
