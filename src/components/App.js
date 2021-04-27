@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState } from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import Calculate from '../logic/Calculate';
@@ -11,17 +11,17 @@ const App = () => {
   });
 
   const handleClick = (buttonName) => {
-    const newState = Calculate(newState, buttonName);
-    setNewState({ ...newState });
+    const currentState = Calculate(newState, buttonName);
+    setNewState({ ...currentState });
   };
 
   const { total, next } = newState;
 
   return (
-    <Fragment>
+    <div>
       <Display total={total} next={next} />
       <ButtonPanel clickHandler={handleClick} />
-    </Fragment>
+    </div>
   );
 };
 
