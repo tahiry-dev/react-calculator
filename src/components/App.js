@@ -18,7 +18,7 @@ const App = () => {
   const { total, next } = newState;
 
   return (
-    <div>
+    <div className="container">
       <Display total={total} next={next} />
       <ButtonPanel clickHandler={handleClick} />
     </div>
