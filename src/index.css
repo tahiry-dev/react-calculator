@@ -1,10 +1,18 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(158, 172, 172);
+  background-color: lightgray;
 }
 
 .container {
-  width: 26%;
-  margin: 5% auto;
+  width: 1000px;
+  margin: 2% auto;
 }
 
 .group1,
@@ -13,29 +21,58 @@ body {
 .group4,
 .group5 {
   display: flex;
-  margin-top: 2px;
+  height: 100px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-bottom: 50px;
 }
 
 button {
-  position: relative;
-  width: 25px;
-  padding: 25px;
-}
-
-button span {
-  position: absolute;
-  color: blue;
-  top: 15px;
-  left: 20px;
+  width: 125px;
+  height: 100px;
+  border: 2px solid #d1d1d1;
+  background-color: orange;
 }
 
 .result {
-  border: 2px solid blue;
+  background-color: #858693;
+  height: 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 1%;
+  padding-top: 3.5%;
+}
+
+.zero {
+  width: 250px;
+}
+
+.calculator-link,
+.home-link {
+  border-right: 2px solid black;
+}
+
+.calculator-link,
+.home-link,
+.quote-link {
   padding: 10px;
 }
 
-h1 {
-  text-align: center;
-  color: blue;
-  font-weight: 400;
+.calculator-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator {
+  width: 500px;
 }
