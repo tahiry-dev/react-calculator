@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from './Navbar';
 
 const Home = () => (
   <div className="container">
-    <Navbar />
-    <h2>Welcome to our page!</h2>
+    <h2>Welcome to our Page!</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing
       elit.

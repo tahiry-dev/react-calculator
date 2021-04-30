@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import Calculate from '../logic/Calculate';
-import Navbar from './Navbar';
 
 const App = () => {
   const [newState, setNewState] = useState({
@@ -20,7 +19,6 @@ const App = () => {
 
   return (
     <div className="container">
-      <Navbar />
       <div className="calculator-container">
         <h2>Let&apos;s do some math!</h2>
         <div className="calculator">
