@@ -1,0 +1,617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders App page correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="calculator-container"
+  >
+    <h2>
+      Let's do some math!
+    </h2>
+    <div
+      className="calculator"
+    >
+      <div>
+        <p
+          className="result"
+        >
+          0
+        </p>
+      </div>
+      <div>
+        <div
+          className="group1"
+        >
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                AC
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                +/-
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                %
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                ÷
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="group2"
+        >
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                7
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                8
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                9
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                x
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="group3"
+        >
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                4
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                5
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                6
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                -
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="group4"
+        >
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                1
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                2
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                3
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                +
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="group5"
+        >
+          <div>
+            <button
+              className="zero"
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                0
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                .
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                =
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App Component renders pages correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="calculator-container"
+  >
+    <h2>
+      Let's do some math!
+    </h2>
+    <div
+      className="calculator"
+    >
+      <div>
+        <p
+          className="result"
+        >
+          0
+        </p>
+      </div>
+      <div>
+        <div
+          className="group1"
+        >
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                AC
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                +/-
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                %
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                ÷
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="group2"
+        >
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                7
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                8
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                9
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                x
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="group3"
+        >
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                4
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                5
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                6
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                -
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="group4"
+        >
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                1
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                2
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                3
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                +
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="group5"
+        >
+          <div>
+            <button
+              className="zero"
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                0
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#e0e0e0",
+                }
+              }
+              type="button"
+            >
+              <span>
+                .
+              </span>
+            </button>
+          </div>
+          <div>
+            <button
+              onClick={[Function]}
+              type="button"
+            >
+              <span>
+                =
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
