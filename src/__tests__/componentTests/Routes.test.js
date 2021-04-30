@@ -4,9 +4,8 @@ import '@testing-library/jest-dom';
 import Routes from '../../components/Routes';
 
 describe('Routes', () => {
-    it('renders Routes ', () => {
-        const tree = renderer.create(<Routes />);
-        expect(tree).toMatchSnapshot();
-    });
+  it('renders Routes ', () => {
+    const tree = renderer.create(<Routes />);
+    expect(tree).toMatchSnapshot();
+  });
 });
-
